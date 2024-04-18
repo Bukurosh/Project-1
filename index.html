@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html >
+<head>
+<style>
+
+.cell {
+
+width: 50px;
+height: 50px;
+border: 1px solid;
+margin-left: 50%;
+font-size: 50px;
+cursor: pointer ;
+} 
+
+.allcell {
+display: grid;
+grid-template-columns: repeat(3, auto);
+width: 100px;
+margin: auto;
+text-align: center;
+}
+
+#press {
+
+  margin-left: 53%;
+
+
+}
+
+</style>
+
+
+
+  <title>Tick Tack Tou Game</title>
+</head>
+
+<body>
+
+<h1 style="margin-left: 40%;">Tick Tack Tou Game</h1>
+
+
+
+<div class="allcell">
+<div box="0" class="cell"></div>
+<div box="1" class="cell"></div>
+<div box="2" class="cell"></div>
+<div box="3" class="cell"></div>
+<div box="4" class="cell"></div>
+<div box="5" class="cell"></div>
+<div box="6" class="cell"></div>
+<div box="7" class="cell"></div>
+<div box="8" class="cell"></div>
+</div>
+
+<button id="press">Restart</button>
+
+</body>
+
+<script src="game.js"></script>
+</html>
